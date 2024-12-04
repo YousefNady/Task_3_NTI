@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Basier Square;
+}
+.border-none{border: none;}
+.border-radius-button{border-radius: 50px;}
+.border-radius-search{border-radius: 10px;}
+.border-radius10{border-radius: 10px;}
+.border-lightgray{border: 1px solid #EAECEE;}
+
+.border-x{border-left: 2px solid black; border-right: 2px solid black;}
+.border-search{border: 1px solid #EAECEE;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.outline-none{outline: none;}
+
+
+
+.w-100{width: 100%;}
+.w-90{width: 90%;}
+.w-95{width: 95%;}
+.w-60{width: 60%;}
+.w-70{width: 70%;}
+.w-50{width: 50%;}
+.w-55{width: 55%;}
+.w-40{width: 40%;}
+.w-30{width: 30%;}
+.w-39{width: 39%;}
+
+.w-24{width: 24%;}
+.button-size{width:180px; height: 30px;}
+.searchbar-size{height: 40px;}
+.brand-size{width: 305px; height: 70px;} 
+.arow-size{font-size:20px;}
+.m-a{margin: auto;}
+.m-r-30{margin-right: 30px;}
+.m-t-35{margin-top: 35px;}
+.m-t-60{margin-top: 60px;}
+
+.m-r-20{margin-right: 20px;}
+.m-r-10{margin-right: 10px;}
+.m-x-5{margin-right: 5px;margin-left: 5px;}
+.m-x-70{margin-right: 70px; margin-left: 70px;}
+.my-35{margin-top: 35px; margin-bottom: 35px;}
+.my-15{margin-top: 15px; margin-bottom: 15px;}
+.m-20{margin: 20px;}
+.my-80{margin-top: 80px; margin-bottom: 80px;}
+
+.white-space{white-space: nowrap;}
+.gap-15{gap: 15px;}
+
+.p-x-70{padding-left: 70px;padding-right: 70px;}
+.px-5{padding-left: 5%;padding-right: 5%;}
+.py-1{padding-top: 1%;padding-bottom: 1%;}
+.py-3{padding-top: 3%;padding-bottom: 3%;}
+
+.px-1{padding-left: 1.5%;padding-right: 1.5%;}
+.p0-6{padding:0.6%;}
+.pt-3{padding-top:3%;}
+.pb-3{padding-bottom:3%;}
+
+
+.pr-2{padding-right: 2%;}
+
+
+.p-x-10{padding-left: 10px;padding-right: 10px;}
+
+.p-y-10{padding-top: 10px; padding-bottom: 10px;}
+.p-y-30{padding-top: 30px; padding-bottom: 30px;}
+
+
+.d-flex{display: flex; flex-wrap:wrap;}
+.items-center{align-items:center;}
+.items-end{align-items:end;}
+
+.justify-between {justify-content: space-between;}
+.justify-end {justify-content: end;}
+
+
+
+
+.relative{position: relative;}
+.absolute-l54{position: absolute;left: 54%;}
+.absolute{position: absolute;}
+
+
+.color-blue{color: #1071FF;}
+.color-white{color: white;}
+.color-black{color: black;}
+.color-gray{color: grey}
+
+
+.text-center{text-align: center;}
+.text-decor-none{text-decoration: none;}
+.vertical-align-mid{vertical-align: middle;}
+.text-cap{text-transform: uppercase;}
+.bg-gray{background-color: #F6F8FB;}
+.bg-blue{background-color: #1071FF;}
+.bg-white{background-color: white;}
+.transperent{ background: transparent;}
+.font-weight{font: weight 900;}
+.font-size-70{font-size: 70px;}
+.font-size-50{font-size: 50px;}
+
+.li-style-no{list-style:none ;}
+
+.circle-absolue {
+    position: absolute;
+    top: -9px;
+    right: -12px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 18.5px;
+    width: 18.5px;
+    text-align: center;
+    line-height: 20px;
+}
+.product-discount{ 
+    position: absolute;
+    padding: 3%;
+    background: #FF7E27;
+    color: white;
+    font-weight: bold;
+    top: 5%; 
+}
+.stock{
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #EAECEE;
+    color: green;
+    border-radius: 5px;
+    bottom: 10px;
+    left: 10px;
+}
+.exp {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #EAECEE;
+    color: red;
+    border-radius: 5px;
+    bottom: 10px;
+    left: 10px;
+}
+.share-compare{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: grid;
+    row-gap: 7px;
+}
+.fav-icon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border: 1px solid #F6F8FB;
+        border-radius: 50%;
+        background-color: #f1eeee;
+        padding: 5px;
+        }
+.test{
+    width: 310px;
+    height: 246px;
+    padding: 1%;
+    border: 1px solid #F6F8FB;
+    border-radius: 10px;
+}
+.Categories{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    background-color: #1071FF;
+    padding: 5%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -5px;
+}
+.newprice-font{font-size: x-large;font-weight: bolder;}
+.oldprice-font{text-decoration: line-through;color: #FF7E27;}
+
+
+.powertools-discount{position: absolute;right: -5%;bottom: 25%;}
+.hents-div{width: 300px;
+height: 300px;}
+.offer-sec{background-color: #1071FF; color: white; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    line-height: 50px;
+    border-radius: 8px;
+}
+.ads-box{
+    display: flex;
+    background-color: #FF7E27;
+    color: white;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 7%;
+    text-align: center  ;
+}

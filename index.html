@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+    <header>
+        <section class="py-1 px-5 d-flex bg-gray">
+                <div class="w-50 d-flex">
+                    <div class="py-1 px-1">
+                        <label for="countries">Country:</label>
+                        <select name="countries" id="countries" class="border-none transperent outline-none">
+                            <option value="egypt">Egypt</option>
+                            <option value="ukraine">Ukraine</option>
+                            <option value="russia">Russia</option>
+                            <option value="sweden" selected>Sweden</option>
+                            <option value="united_states">US</option>
+                            <option value="united_kingdom">UK</option>
+                    </div>
+                    <div class="py-1 px-1">
+                        <label for="languages">Language:</label>
+                        <select name="languages" id="languages" class="border-none transperent outline-none">
+                            <option value="egypt_lang">Egyptian</option>
+                            <option value="ukraine_lang">Ukrainian</option>
+                            <option value="russia_lang">Russian</option>
+                            <option value="sweden_lang" selected>Svenska</option>
+                            <option value="united_states_lang">English</option>
+                        </select>
+                    </div>
+                    <div class="py-1 px-1">
+                        <label for="currencies">Currency:</label>
+                        <select name="currencies" id="currencies" class="border-none transperent outline-none">
+                            <option value="egypt_curr">£</option>
+                            <option value="ukraine_curr">₴</option>
+                            <option value="russia_curr">₽</option>
+                            <option value="sweden_curr" selected>KR</option>
+                            <option value="united_states_curr" selected>$</option>
+                            <option value="united_kingdom_curr">£</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="w-50 d-flex justify-end">
+                        <div class="py-1 px-1">
+                            <a href="tel:01078523695" class="color-blue text-decor-none">
+                                <i class="fa-solid fa-phone color-blue font-weight"></i>
+                                01078523695
+                            </a>
+                        </div>
+                        <div class="py-1 border-x d-flex px-1">
+                            <p class="relative">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span class="circle-absolue">12</span>
+                            </p>
+                            <p> &nbsp;&nbsp;&nbsp;Message</p>
+                        </div>
+                        <div class="py-1 px-1">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <select name="username" id="username" class="border-none transperent outline-none">
+                                <option value="name" selected>Surname</option>
+                                <option value="profile">Profile</option>
+                                <option value="logout">Log Out</option>
+                                <option value="HelpAndSupport">Help&Support</option>
+                            </select>
+                        </div>
+                </div>
+        </section>
+
+        <section class="d-flex py-1 px-5 justify-between">
+            <div class="w-25"><h1>Commerce</h1></div>
+            <div class="w-40 p0-6 border-search border-radius-search">
+            <i class="fa-solid fa-magnifying-glass color-blue"></i>
+            <input type="text" name="search" id="search" placeholder="Search by product or SKU"class="outline-none border-none">
+            </div>
+            <div class="w-25 justify-end">
+                <a href="#">
+                    <button type="submit" class="button-size color-white bg-blue border-radius-button border-none"> Quick Order Form</button>
+                </a>
+            </div>
+        </section>
+        <section class="py-1 px-5 d-flex bg-gray justify-between">
+            <nav class="w-50 d-flex">
+                <select name="Homelist" id="Homelist" class="transperent border-none text-cap pr-2 outline-none">
+                    <option value="Homelist" selected>Home&Garden</option>
+                    <option value="furniture ">Furniture</option>
+                    <option value="outdoor ">Outdoor</option>
+                    <option value="gardening_tools ">Garden Tools</option>
+                    <option value="Home_decor">Home Decor</option>
+                    <option value="living_room">Living Room</option>
+                    <option value="bedroom">Bedroom</option>
+                    <option value="kitchen ">Kitchen</option>
+                    <option value="bathroom ">Bathroom</option>
+                    <option value="office ">Office</option>
+                </select>
+                                    &nbsp&nbsp&nbsp
+                <select name="motors" id="motors" class="transperent border-none text-cap pr-2 outline-none">
+                    <option value="motors" selected>Motors</option>
+                    <option value="electric_motors">Elec Motors</option>
+                    <option value="diesel_motors">Dies Motors</option>
+                    <option value="petrol_motors">Petro Motors</option>
+                    <option value="hybrid_motors">Hyb Motors</option>
+                    <option value="gas_motors">Gas Motors</option>
+                    </select>
+                    &nbsp&nbsp&nbsp
+                    
+                    
+                    <li class="li-style-no text-cap pr-2 pt-3">
+                        <a href="#" class="text-decor-none color-black">Electronics</a>
+                    </li>
+                    <li class="li-style-no text-cap pr-2 pt-3">
+                        <a href="#" class="text-decor-none color-black">Office Equipment</a>
+                    </li>
+            </nav>
+            <div class="w-50 d-flex justify-end" style="text-align: center;">
+                <div class="px-1 text-align-center"> 
+                    <span class="relative">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <span class="circle-absolue">3</span>
+                    </span>
+                    <p>COMPARE</p>
+                </div>
+                <div class="px-1 text-align-center" style="text-align: center;">
+                    <span class="relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="circle-absolue">7</span>
+                    </span>
+                    <p>FAVORITES</p>
+
+                </div>
+                <div class="px-1 text-align-center" style="text-align: center;">
+                    <span class="relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="circle-absolue">45</span>
+                    </span>
+                    <p>CART</p>
+                    <p>Active Cart Name</p>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="py-1 px-5">
+        <div class="d-flex justify-between my-35">
+            <h2 class="">Our Brands</h2>
+            <h3 class=" justify-end">
+                <a href="#" class="color-blue text-decor-none">Show all Brands →</a>
+            </h3>
+        </div>
+        <div class="d-flex justify-between gap-15">
+
+                <div class="brand-size border-search border-radius-search text-center"><img
+                        src="images/Brands/sharp.png" alt="Sharp"></div>
+                <div class="brand-size border-search border-radius-search text-center"><img
+                        src="images/Brands/panasonic.png" alt="Panasonic"></div>
+                <div class="brand-size border-search border-radius-search text-center"><img
+                        src="images/Brands/huawei .png" alt="Huawei"></div>
+                <div class="brand-size border-search border-radius-search text-center"><img
+                        src="images/Brands/legrand.png" alt="Legrand"></div>
+        </div>
+    </section>
+    <section class="py-1 px-5">
+        <div class="d-flex justify-between my-35">
+            <h2 class="">Recommended products</h2>
+            <h3 class=" justify-end">
+                <a href="#" class="color-blue text-decor-none">Show all Recommended products →</a>
+            </h3>
+            </div>
+            <div class="d-flex justify-between">
+                <div class="w-25 relative">
+                    <span class="product-discount">-15%</span>
+                    <span class="stock">
+                        <p class=""><i class="fa-regular fa-circle-check"></i>In Stock</p>
+                    </span>
+                    <span class="share-compare">
+                        <i class="fa-solid fa-code-compare color-blue"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes color-blue"></i>
+                        </a>
+                    </span>
+                    <span class="fav-icon">
+                        <i class="fa-regular fa-star color-blue"></i>
+                    </span>
+                    <img src="images/Products/1.png" alt="Product Image">
+                </div>
+                <div class="w-25 relative">
+                    <span class="product-discount">-15%</span>
+                    <span class="stock">
+                        <p class=""><i class="fa-regular fa-circle-check"></i>In Stock</p>
+                    </span>
+                    <span class="share-compare">
+                        <i class="fa-solid fa-code-compare color-blue"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes color-blue"></i>
+                        </a>
+                    </span>
+                    <span class="fav-icon">
+                        <i class="fa-regular fa-star color-blue"></i>
+                    </span>
+                    <img src="images/Products/2.png" alt="Product Image">
+                </div>
+                <div class="w-25 relative">
+                    <span class="product-discount">-15%</span>
+                    <span class="stock">
+                        <p class=""><i class="fa-regular fa-circle-check"></i>In Stock</p>
+                    </span>
+                    <span class="share-compare">
+                        <i class="fa-solid fa-code-compare color-blue"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes color-blue"></i>
+                        </a>
+                    </span>
+                    <span class="fav-icon">
+                        <i class="fa-regular fa-star color-blue"></i>
+                    </span>
+                    <img src="images/Products/3.png" alt="Product Image">
+                </div>
+                <div class="w-25 relative">
+                    <span class="product-discount">-30%</span>
+                    <span class="exp">
+                        <p class=""><i class="fa-solid fa-circle-exclamation"></i>Exp.delivery on jin 14,2022</p>
+                    </span>
+                    <span class="share-compare">
+                        <i class="fa-solid fa-code-compare color-blue"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes color-blue"></i>
+                        </a>
+                    </span>
+                    <span class="fav-icon">
+                        <i class="fa-regular fa-star color-blue"></i>
+                    </span>
+                    <img src="images/Products/4.png" alt="Product Image">
+                </div>
+            </div>
+            <div class="d-flex justify-between ">
+                <div class="w-25 test">
+                    <p class="color-gray py-3">Goodhome | Part No.234565</p>
+                    <h2 class="pt-3">Perforated Simpason tape 25 x</h2>
+                    <h2 class="pb-3">2500 x 2 mm</h2>
+                    <p>Basin width: 45 cm</p>
+                    <p>Basin height: 12 cm</p>
+                    <p>Basin depth: 35 cm</p>
+                    <p class="color-blue">your price <span class="newprice-font">$45.00 net</span> <span class="oldprice-font">$55.00 net</span></p>
+                    <div class="d-flex text-text-center justify-between">
+                        <div class="w-30  border-radius10 text-center border-lightgray"> <span>1</span></div>
+                        <div class="w-70 border-radius10 border-lightgray"> <select class="border-none outline-none transperent">
+                            <option value="item" selected>item</option>
+                            <option value="item2">item2</option>
+                            <option value="item3" > item355555555555555</option>
+                        </select></div>
+                    </div>
+                
+                </div>
+                <div class="w-25 test">
+                    <p class="color-gray py-3">Goodhome | Part No.2234565</p>
+                    <h2 class="pt-3">Countertop washbasin</h2>
+                    <h2 class="pb-3">GoodHome Tekapo</h2>
+                    <p>Basin width: 45 cm</p>
+                    <p>Basin height: 12 cm</p>
+                    <p>Basin depth: 35 cm</p>
+                    <p class="color-blue">your price <span class="newprice-font">$51.00 net</span> <span class="oldprice-font">$64.00 net</span></p>
+                </div>
+                <div class="w-25 test">
+                    <p class="color-gray py-3">Goodhome | Part No.234565</p>
+                    <h2 class="pt-3">AMBER DECOR Buib 60W,</h2>
+                    <h2 class="pb-3"> E27 590</h2>
+                    <p>Basin width: 45 cm</p>
+                    <p>Basin height: 12 cm</p>
+                    <p>Basin depth: 35 cm</p>
+                    <p class="color-blue">your price <span class="newprice-font">$51.00 net</span> <span class="oldprice-font">$64.00 net</span></p>
+                </div>
+                <div class="w-25 test">
+                    <p class="color-gray py-3">Omnires | Part No. 2123532</p>
+                    <h2 class="pt-3"> Connection with a handle</h2>
+                    <h2 class="pb-3">Omnires round</h2>
+                    <p>Material of execution: brass</p>
+                    <p>Manufacturer'd color: chrome</p>
+                    <p> Guaratee: 5 years</p>
+                    <p class="color-blue">your price <span class="newprice-font">$51.00 net</span> <span class="oldprice-font">$64.00 net</span></p>
+                    <a href="#">
+                        <button type="submit" class="button-size color-white bg-blue border-radius-button border-none"> Quick Order Form</button>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section class="px-5 p-y-30 my-80 d-flex justify-between bg-blue">
+        
+        <div class="d-flex w-50 relative">
+                <div>
+              <img src="images/sec/powertool.png" alt="power tool">
+            </div>
+            <div class="powertools-discount">
+                <h2 class="color-white font-size-50"> <span class="font-size-70">-20%</span> on power tools</h2>
+            </div>
+            
+        </div>
+        
+        <div class=" d-flex justify-end w-50 items-center">
+            <button style="font-weight: 700;" type="submit" class="button-size color-blue bg-white border-radius-button border-none">Check offer</button>
+        </div>
+    </section>
+    <section class="px-5 py-1">
+        <div class="d-flex justify-between my-35">
+            <h2 class="">Recommended Categories</h2>
+            <h3 class=" justify-end">
+                <a href="#" class="color-blue text-decor-none">Show all Categories →</a>
+            </h3>
+        </div>
+        <div class="d-flex justify-between my-35">
+            <div class="w-25">
+                <div><img src="images/Categories/Photovoltaics.png" alt="Photovoltaics_img"></div>
+                <div class="Categories"><p>Photovoltaics</p></div>
+            </div>
+            <div class="w-25">
+                <div><img src="images/Categories/Electronics.png" alt="Electronics_img"></div>
+                <div class="Categories">
+                    <p>Electronics</p>
+                </div>
+            </div >
+            <div class="w-25">
+                <div><img src="images/Categories/Light Sources.png" alt="Light-Sources_img"></div>
+                <div class="Categories">
+                    <p>Light Sources</p>
+                </div>
+            </div>
+            <div class="w-25">
+                <div><img src="images/Categories/Ventilation and Heating.png" alt="Ventilation_img"></div>
+                <div class="Categories">
+                    <p>Ventilation and Heating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="px-5 py-1 my-35">
+        <div>
+        <div class="d-flex justify-between">
+            <h2 class="">Hints for you</h2>
+            <h3 class=" justify-end">
+                <a href="#" class="color-blue text-decor-none">Show all Hints →</a>
+            </h3>
+        </div>      
+        </div>
+        <div class="d-flex justify-between my-35">
+            <div class="hents-div">
+                <div>
+                <div><img src="images/hints/1.png" alt="hintspic" style="max-width: 100%;"></div>
+                <div class="">
+                    <h3 class="my-15">how much does it cost to finish an apartment</h3>
+                    <p class="my-15">Are you standing on the threshold of your own "M", to which you have just picked up the keys, and with the eye...</p>
+                    <a href="#" class="text-decor-none color-blue font-weight">Read More →</a>
+                </div>
+                </div></div>
+                <div class="hents-div">
+                    <div>
+                        <div><img src="images/hints/2.png" alt="hintspic" style="max-width: 100%;"></div>
+                        <div class="">
+                            <h3 class="my-15">Demolition of the load- bearing wall</h3>
+                            <p class="my-15">Are you planning a home renovation or renovation? Your vision is limited
+                            by the load-bearing wall, which you...</p>
+                            <a href="#" class="text-decor-none color-blue font-weight">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hents-div">
+                    <div>
+                        <div><img src="images/hints/3.png" alt="hintspic" style="max-width: 100%;"></div>
+                        <div class="">
+                            <h3 class="my-15">What color to paint a hall in a block of flats?</h3>
+                            <p class="my-15">Matching the right paint is a real challenge. If you are wondering what
+                            color to paint your hall with, you can...</p>
+                            <a href="#" class="text-decor-none color-blue font-weight">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hents-div">
+                    <div>
+                        <div><img src="images/hints/4.png" alt="hintspic" style="max-width: 100%;"></div>
+                        <div class="">
+                            <h3 class="my-15">How does a concrete pump work?</h3>
+                            <p class="my-15">A concrete pump is currently one of the most common equipment used on construction sites. Its operation...</p>
+                            <a href="#" class="text-decor-none color-blue font-weight">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="px-5 py-1">
+        <div class="d-flex justify-between p-y-30">
+        <div class="w-50">
+            <img src="images/Products/bundle for $100.png" alt="bundle" style="height: 100%;">
+        </div>
+        <div class="w-50 offer-sec">
+            <div class="">
+                <h2>Buy this bundle and save $100!</h2>
+                <h4>Longer sentence, for just two lines and it could be very very long</h4>
+                <a href="#">
+                    <button style="font-weight: 700;" type="submit" class="button-size color-blue bg-white border-radius-button border-none"> Buy this bundle</button>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="px-5 py-1">
+        <div class="d-flex justify-between">
+
+            <div class="d-flex justify-between">
+                <div class="ads-box w-50">
+                    <h4 class="">New tool kits!</h4>
+                </div>
+                <div class="w-50"><img src="images/ads/toolkits!.png" alt="tools" style="height: 100%;"></div>
+            </div>
+
+            <div class="d-flex justify-between">
+                <div class="ads-box w-50">
+                    <h4 class="">New rules for wind farms!</h4>
+                </div>
+                <div class="w-50"><img src="images/ads/windfarms!.png" alt="windfarms" style="height: 100%;"></div>
+            </div>
+
+            <div class="d-flex justify-between">
+                <div class="ads-box w-50">
+                    <h4 class="">New iPhone now available!</h4>
+                </div>
+                <div class="w-50"><img src="images/ads/NewIphone.png" alt="Iphone" style="height: 100%;"></div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
