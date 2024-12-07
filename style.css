@@ -4,6 +4,112 @@
     box-sizing: border-box;
     font-family: Basier Square;
 }
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    header,
+    nav,
+    section,
+    footer {
+        padding: 10px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 16px;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    header,
+    nav,
+    section,
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    header,
+    nav,
+    section,
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        width: auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 22px;
+    }
+}
+
 .border-none{border: none;}
 .border-radius-button{border-radius: 50px;}
 .border-radius-search{border-radius: 10px;}
@@ -35,12 +141,19 @@
 .m-a{margin: auto;}
 .m-r-30{margin-right: 30px;}
 .m-t-35{margin-top: 35px;}
+.m-t-25{margin-top: 25px;}
+.m-t-40{margin-top: 40px;}
+
+
 .m-t-60{margin-top: 60px;}
 
 .m-r-20{margin-right: 20px;}
 .m-r-10{margin-right: 10px;}
 .m-x-5{margin-right: 5px;margin-left: 5px;}
 .m-x-70{margin-right: 70px; margin-left: 70px;}
+.my-45{margin-top: 45px; margin-bottom: 45px;}
+.my-30{margin-top: 30px; margin-bottom: 30px;}
+
 .my-35{margin-top: 35px; margin-bottom: 35px;}
 .my-15{margin-top: 15px; margin-bottom: 15px;}
 .m-20{margin: 20px;}
@@ -180,8 +293,10 @@
 
 
 .powertools-discount{position: absolute;right: -5%;bottom: 25%;}
-.hents-div{width: 300px;
-height: 300px;}
+.hents-div{width: 300px;height: 300px;}
+.events-div{width: 300px;height: 410px; position: relative;}
+.events-button{position: absolute; bottom: 0;}
+
 .offer-sec{background-color: #1071FF; color: white; 
     padding-left: 5%;
     padding-right: 5%;
@@ -197,4 +312,18 @@ height: 300px;}
     border-radius: 10px 0 0 10px;
     padding: 7%;
     text-align: center  ;
+}
+th{
+    width: 20%;
+    text-align: left;
+    padding: 1.5%;
+    font-size: x-large;
+}
+td{
+    width: 20%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
 }
